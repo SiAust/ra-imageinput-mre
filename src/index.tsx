@@ -2,12 +2,13 @@ import React from "react";
 import ReactDOM from "react-dom/client";
 import { RouterProvider } from "react-router";
 import { createHashRouter } from "react-router-dom";
-import { App } from "./App";
+// import { App } from "./App";
+import DropZone from "./DropZone.jsx";
 
 const router = createHashRouter([
   {
     path: "*",
-    element: <App />,
+    element: <DropZone />,
   },
 ]);
 
